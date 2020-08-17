@@ -1,4 +1,5 @@
-# project4
+# voknet-blog-front-project
+voknet pages
 
 ## Project setup
 ```
