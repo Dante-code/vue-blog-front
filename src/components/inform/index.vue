@@ -2,7 +2,7 @@
   <div class="inform">
     <h1 style="text-align: center; padding-top: 0.5rem;">公告</h1>
     <el-divider></el-divider>
-    
+    <h3>hahahahahhaha</h3>
   </div>
 </template>
 
