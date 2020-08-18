@@ -117,6 +117,14 @@ data() {
     }
   }
 
+  @media (min-width: 600px) {
+    .boarder{
+      position: absolute;
+      top: 50rem;
+    }
+
+  }
+
   @media only screen and (max-width: 500px) {
     .boarder{
       position: fixed;

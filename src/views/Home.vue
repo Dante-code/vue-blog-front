@@ -39,7 +39,6 @@ export default {
   name: 'home',
   components: {
     rotationChart: () => import('../components/rotationchart/index'),
-    Aplayer: () => import('vue-aplayer'),
     NightStarry: () => import('../components/nightstarry/index'),
     PackingBox: () => import('../components/packingbox/index'),
     clock: () => import('../components/clock/index'),
@@ -106,10 +105,6 @@ export default {
       color: whitesmoke;
       font-size: 4rem;
     }
-  }
-  .aplayer{
-    position: absolute;
-    top: 30%;
   }
   .header{
     width: 100%;

@@ -23,6 +23,7 @@
     </el-header>
 
     <el-main class="main">
+      <!-- <music-box></music-box> -->
       <side-bar :hamburger_active="hamburger_active"></side-bar>
       <router-view />
     </el-main>
@@ -39,7 +40,8 @@ export default {
   name: 'index',
   components: {
     navbarBlock,
-    SideBar: () => import('../components/sidebar/index')
+    SideBar: () => import('../components/sidebar/index'),
+    musicBox: () => import('../components/musicbox/index'),
   },
   data() {
       return {
@@ -174,6 +176,7 @@ export default {
   }
   .footer{
     background-color: rgba(51, 51, 51, 0.801);
+    margin-top: 5rem;
   }
   @keyframes bkgandborderChange{
     0%{
